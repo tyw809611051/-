@@ -1,0 +1,9 @@
+Page({
+	data:{
+		imgUrls:[
+		'http://img7.doubanio.com/img/celebrity/large/694.jpg',
+		'http://img7.doubanio.com/img/celebrity/large/1421061916.72.jpg',
+		'http://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2412371389.jpg',
+		]
+	}
+})
