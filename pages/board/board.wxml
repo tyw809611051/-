@@ -2,7 +2,7 @@
 	<view class="slide">
 		<swiper indicator-dots="true"
 		autoplay="true" interval="5000" duration="1000">
-		<block wx:for="{{imgUrls}}">
+		<block wx:for-items="{{imgUrls}}" wx:key="*this">
 		<swiper-item>
 		  <image src="{{item}}" class="slide-image" width="355" height="150" mode="aspectFill"/>
 		</swiper-item>
@@ -16,7 +16,7 @@
 			<image src="../../images/right.png" mode="aspectFill" />
 		</view>
 	 </navigator>
-	 <navigator url="../list/list?type=commin_soon&name=即将上映">
+	 <navigator url="../list/list?type=coming_soon&name=即将上映">
 		<view class="board-item">
 			<text>即将上映</text>
 			<image src="../../images/right.png" mode="aspectFill" />

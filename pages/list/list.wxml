@@ -1,15 +1,18 @@
 <view class="container">
+	<loading hidden="{{ !load }}">
+	加载中....
+	</loading>
 	<view class="header">
 		<text>{{title}}</text>
 	</view>
 	<view class="list">
-		<navigator wx:for="{{ list }}" url="../../item/item?id={{ item.id }}">
+		<navigator wx:for-items="{{ list }}"  wx:key="*this" url="../../item/item?id={{ item.id }}">
 			<view class="list-item">
 				<image src="{{ item.images.small}}"></image>
 				<view class="info">
 					<text class="title">{{item.title}}</text>
 					<text class="con">{{item.original_title}}({{item.year}})</text>
-					<text class="con">导演：<block wx:for="{{item.directors}}">{{item.name}}</block></text>
+					<text class="con">导演：<block wx:for-items="{{item.directors}}" wx:key="*this">{{item.name}}</block></text>
 				</view>
 				<view class="rating">
 					<text>{{item.rating.average}}</text>
