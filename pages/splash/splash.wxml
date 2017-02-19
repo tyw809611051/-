@@ -1,0 +1,10 @@
+<view class="man">
+<swiper indicator-dots="true" autoplay="true" interval="5000" duration="1000" class="one">
+	<block wx:for-items="{{movies}}" wx:for-index="index" wx:key="img">
+		<swiper-item class="two">
+			<image src="{{item.images.large}}" class="slide-image" mode="aspectFill" />
+			<button class="btn" bindtap="start" wx:if="{{index == movies.length -1}}">立即体验</button>
+		</swiper-item>
+	</block>
+</swiper>
+</view>

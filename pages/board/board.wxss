@@ -18,7 +18,7 @@
 	border:1rpx solid #eee;
 	margin-top:20rpx;
 	padding:30rpx;
-	background-color:#354951;
+	background-color:white;
 }
 
 .board-item image {
@@ -27,4 +27,21 @@
 }
 .board-item text {
 	flex:1;
+}
+.center {
+	height: 50px;
+	width: 100%;
+
+}
+.cen-title {
+	font-weight: bold;
+	font-size: 1.4em;
+	height: 50px;
+	line-height: 50px;
+	margin-left:30px; 
+	display: block;
+}
+.cen-futitle {
+	color:#8B8B83;
+	margin-left:30px;
 }

@@ -9,6 +9,10 @@
 		</block>
 		</swiper>
 	</view>
+	<view class="center">
+		<text class="cen-title">豆瓣电影榜单集合</text>
+		<text class="cen-futitle">最全，最in的信息收集</text>
+	</view>
 	<view class="board">
 	 <navigator url="../list/list?type=in_theaters&name=正在热映">
 		<view class="board-item">
@@ -25,6 +29,12 @@
 	<navigator url="../list/list?type=top250&name=TOP250">
 		<view class="board-item">
 			<text>TOP250</text>
+			<image src="../../images/right.png" mode="aspectFill" />
+		</view>
+	</navigator>
+	<navigator url="../list/list?type=us_box&name=北美票房榜">
+		<view class="board-item">
+			<text>北美票房榜</text>
 			<image src="../../images/right.png" mode="aspectFill" />
 		</view>
 	</navigator>

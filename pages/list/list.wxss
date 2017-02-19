@@ -27,3 +27,9 @@
 	margin-top:10px;
 	display: block;
 }
+.rating text{
+	color: red;
+}
+.con {
+	color:#8E8E8E;
+}
