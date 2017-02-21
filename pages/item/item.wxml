@@ -1,0 +1,17 @@
+<view>
+	<view class="topimg">
+		<image src="{{ imgUrls.large }}"></image>
+	</view>
+	<view class="cen-title">
+		<text>{{title}}({{year}})</text>
+	</view>
+	<view class="cen-content">
+		<text>评分：{{rating.average}}</text>
+		<text>导演：<block wx:for-items="{{directors}}" wx:key="*this">{{item.name}}</block></text>
+		<text>主演：<block wx:for-items="{{casts}}" wx:key="*this">{{item.name}},</block></text>
+	</view>
+	<view class="bottom">
+		<text>简介:</text>
+		<text class="bott-content">{{content}}...</text>
+	</view>
+</view>

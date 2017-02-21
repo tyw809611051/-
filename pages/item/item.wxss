@@ -1,0 +1,39 @@
+.topimg {
+    height: 350px;
+    width: 100%;
+}
+.topimg image {
+    margin: 20px;
+    height: 330px;
+}
+.cen-title {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.cen-content {
+    height: 100px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.cen-content text {
+    margin-left: 10px;
+    padding: 3px;
+    display: block;
+    font-size: 0.9em;
+    color: gray;
+}
+
+.bottom text{
+    display: block;
+    font-weight: bold;
+}
+
+.bottom .bott-content {
+    font-size: 0.9em;
+    font-weight: normal;
+    text-indent: 10px;
+}
